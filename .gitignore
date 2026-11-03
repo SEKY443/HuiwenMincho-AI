@@ -1,0 +1,13 @@
+# Third-party fonts and tools used as references/sources; documented in README, not redistributed
+Material Fonts/
+TCFontCreator/
+
+# macOS / editor / session noise
+.DS_Store
+.claude/
+
+# Font binaries are published as GitHub Release assets, not committed
+*.ttf
+
+# Review page (large embedded fonts)
+review/
