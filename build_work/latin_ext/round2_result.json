@@ -1,0 +1,34 @@
+{
+ "rebuilt": [
+  "U+1E00",
+  "U+1E01",
+  "U+1E98",
+  "U+1E99",
+  "U+1E9A",
+  "U+1E9B",
+  "U+20AB",
+  "U+20AE",
+  "U+20B8",
+  "U+20BD",
+  "U+20B1",
+  "U+20B3",
+  "U+20BF",
+  "U+20A0"
+ ],
+ "notes": {
+  "U+1E00": "A + ring below (our rough O, complete with its counter, thickened back)",
+  "U+1E01": "a + ring below (our rough O, complete with its counter, thickened back)",
+  "U+1E98": "w + ring above (our rough O, complete with its counter, thickened back)",
+  "U+1E99": "y + ring above (our rough O, complete with its counter, thickened back)",
+  "U+1E9A": "a + right half ring (right half of our ring, round ends) at the upper right; advance widened to hold it",
+  "U+1E9B": "long s with its crossbar band replaced by the stem below it (clearly f without crossbar) + dot above (full size)",
+  "U+20AB": "d + bar through the ascender + underline (bars = our minus sign, 54 units)",
+  "U+20AE": "T + bar across the stem 40% below the top bar",
+  "U+20B8": "T + second bar just under the top bar",
+  "U+20BD": "P + one bar across the stem under the bowl",
+  "U+20B1": "P + two bars across stem and bowl",
+  "U+20B3": "A + bar across both legs, low",
+  "U+20BF": "B + two short vertical strokes above and below (minus sign turned 90 deg, weight 0.6 x stem)",
+  "U+20A0": "C + our E at 66% (re-thickened) overlapping the lower arm of the C; advance = C + E - overlap"
+ }
+}
