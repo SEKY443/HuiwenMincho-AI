@@ -49,7 +49,7 @@ Punctuation placement in the four versions (main = horizontal centred, VC = vert
 
 ## Background
 
-I prefer reading vertically. While setting up vertical text I ran into **tate-chu-yoko (縱中橫, upright digits/letters inside vertical lines)** and noticed that a number of symbols were missing from the font. A little later, reading a French book, **é would not display correctly**. So I started filling in what was missing, and the list grew: Latin Extended, Vietnamese, IPA, Greek, Cyrillic, vertical punctuation forms, circled and enclosed characters, units, radicals, box-drawing, and more.
+I prefer reading Chinese and Japanese vertically. While setting up vertical text I ran into **tate-chu-yoko (縱中橫, upright digits/letters inside vertical lines)** and noticed that a number of symbols were missing from the font. A little later, reading a French book, **é would not display correctly**. So I started filling in what was missing, and the list grew: Latin Extended, Vietnamese, IPA, Greek, Cyrillic, vertical punctuation forms, circled and enclosed characters, units, radicals, box-drawing, and more.
 
 Rules I kept throughout:
 
