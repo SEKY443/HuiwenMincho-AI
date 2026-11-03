@@ -33,8 +33,11 @@ def shot(html,png,w,h):
 html_s=['']
 def ff(n,f): return f'@font-face{{font-family:{n};src:url("file://{R}{f}")}}'
 css=ff('M','HuiwenMincho-AI-v2.1.ttf')+'body{margin:0;background:#fff;color:#111}.p{padding:26px 34px 28px}h1{font:15px/1 -apple-system,sans-serif;color:#777;margin:0 0 12px}pre{font-family:M;font-size:34px;line-height:1.55;margin:0;white-space:pre-wrap}'
-for old in os.listdir(OUT): os.remove(OUT+old)
-for key,name,lang,txt in L:
+import sys
+ONLY=len(sys.argv)>1
+if not ONLY:
+    for old in os.listdir(OUT): os.remove(OUT+old)
+for key,name,lang,txt in ([] if ONLY else L):
     miss=sorted({c for c in txt if c not in '\n ' and ord(c) not in cm})
     if miss: print(key,'MISSING',miss)
     html_s[0]=f'<!doctype html><meta charset=utf-8><style>{css}</style><div class=p><h1>{name}</h1><pre lang="{lang}">{txt}</pre></div>'
@@ -45,8 +48,8 @@ rows=[('Main — traditional input','M','頭髮、皇后、發財、後來、裡
 ('Main — simplified input','M','头发、皇后、发财、后来、里面、干净、干部、台湾「你好」，。'),
 ('S2T — simplified input, traditional shown','S','头发、皇后、发财、后来、里面、干净、干部、台湾「你好」，。'),
 ('T2S — traditional input, simplified shown','T','頭髮、皇后、發財、後來、裡面、乾淨、幹部、台灣「你好」，。'),
-('CP — punctuation and symbols centred','C','頭髮、皇后、發財、後來、裡面、乾淨、幹部、台灣「你好」，。（★）')]
-fonts=ff('S','HuiwenMincho-AI-v2.1-S2T.ttf')+ff('T','HuiwenMincho-AI-v2.1-T2S.ttf')+ff('C','HuiwenMincho-AI-v2.1-CP.ttf')
+('AC — all punctuation and symbols centred','C','頭髮、皇后、發財、後來、裡面、乾淨、幹部、台灣「你好」，。（★）')]
+fonts=ff('S','HuiwenMincho-AI-v2.1-S2T.ttf')+ff('T','HuiwenMincho-AI-v2.1-T2S.ttf')+ff('C','HuiwenMincho-AI-v2.1-AC.ttf')
 body=''.join(f'<h1>{l}</h1><pre style="font-family:{f}" lang="zh-Hant">{t}</pre><br>' for l,f,t in rows)
 html_s[0]=f'<!doctype html><meta charset=utf-8><style>{css}{fonts}</style><div class=p>{body}</div>'
 shot(W+'versions.html',OUT+'versions_comparison.png',1500,760)

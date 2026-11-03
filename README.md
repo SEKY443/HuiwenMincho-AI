@@ -10,19 +10,20 @@ The font files are attached to the [latest GitHub Release](https://github.com/SE
 
 | File | What it is |
 |---|---|
-| `HuiwenMincho-AI-v2.1.ttf` | The main font. |
-| `HuiwenMincho-AI-v2.1-S2T.ttf` | Same glyphs; typing simplified characters displays traditional forms (with context-aware handling of one-to-many characters, e.g. 后/後/皇后, 发/發/髮, 干/乾/幹/榦, 里/裡/裏). |
-| `HuiwenMincho-AI-v2.1-T2S.ttf` | The reverse: typing traditional characters displays simplified forms. |
-| `HuiwenMincho-AI-v2.1-CP.ttf` | Same glyphs as the main font, but full-width punctuation and symbols (、。，：；！？ brackets, quotation marks, ～ ★ ○ ...) are **centred** in their em box, in horizontal and vertical forms (like I.Ming's "CP" build). Cell-filling shapes and box drawing are left untouched so that they still join. |
+| `HuiwenMincho-AI-v2.1.ttf` | **Main font.** Horizontal punctuation (，。、；：！？) centred; vertical forms in the traditional top-right position. |
+| `HuiwenMincho-AI-v2.1-VC.ttf` | **V**ertical centred: vertical forms of punctuation and symbols centred in the em box; horizontal punctuation in mainland style (lower-left / left side); horizontal quotes “ ” ‘ ’ instead of 「」『』. |
+| `HuiwenMincho-AI-v2.1-AC.ttf` | **A**ll centred: every full-width punctuation mark and symbol centred, horizontal and vertical (like I.Ming's "CP" build). |
+| `HuiwenMincho-AI-v2.1-NC.ttf` | **N**one centred: mainland style for horizontal text (，。、 in the lower-left corner, ；：！？ on the left, “ ” ‘ ’ quotes), traditional top-right forms for vertical text. |
+| `…-S2T.ttf` / `…-T2S.ttf` | Every one of the four versions above also comes as **S2T** (typing simplified characters displays traditional forms, with context-aware handling of one-to-many characters, e.g. 后/後/皇后, 发/發/髮, 干/乾/幹/榦, 里/裡/裏) and **T2S** (typing traditional characters displays simplified forms): 12 files in total, e.g. `HuiwenMincho-AI-v2.1-VC-S2T.ttf`. |
 | `example/` | Specimen images (per language, per version, horizontal and vertical) rendered with these fonts. |
 
-All four carry the same name/licence metadata as the original font (Public Domain; credits to the original authors are kept in the name table).
+All twelve carry the same name/licence metadata as the original font (Public Domain; credits to the original authors are kept in the name table).
 
 ## Intended use
 
 This font is made **for reading** (books, long-form text, vertical or horizontal). It is **not well suited to UI design**: the letterpress roughness, the narrow spacing marks and the tall vertical metrics were tuned for running text, not for buttons, menus or small interface labels.
 
-Pick the version that matches how you read: the main font for mixed text, **S2T** if you prefer to read traditional characters (and type or receive simplified text), **T2S** if you prefer simplified, and **CP** if you want centred punctuation and symbols.
+Pick the version that matches how you read: the main font for mixed text, **S2T** if you prefer to read traditional characters (and type or receive simplified text), **T2S** if you prefer simplified, and **VC / AC / NC** for the punctuation placement you prefer (see the comparison below); each exists in S2T and T2S form too.
 
 Repository: <https://github.com/SEKY443/HuiwenMincho-AI>
 
@@ -38,13 +39,13 @@ Vertical (right to left, `writing-mode: vertical-rl`):
 
 ## Version comparison
 
-The same text in each version. In S2T the simplified text displays as traditional forms, in T2S the traditional text displays as simplified ones (the converter also swaps 「」 for “”), and CP centres punctuation and symbols.
+The same text in each version. In S2T the simplified text displays as traditional forms, in T2S the traditional text displays as simplified ones (the converter also swaps 「」 for “”), and AC centres punctuation and symbols.
 
 ![Version comparison](example/versions_comparison.png)
 
-Main vs CP, horizontal and vertical:
+Punctuation placement in the four versions (main = horizontal centred, VC = vertical centred, AC = all centred, NC = none centred), horizontal and vertical:
 
-![Main vs CP](example/cp_comparison.png)
+![Centring comparison](example/centring_comparison.png)
 
 ## Background
 
