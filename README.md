@@ -297,6 +297,8 @@ The folder `Material Fonts/` (and `TCFontCreator/`) is **not uploaded** to this 
 
 ## Known issues
 
+- **Vertical forms:** small kana (ぁぃっゃ … ㇰ–ㇿ), the prolonged sound mark ー, 〝〞〟, the fullwidth full stop ． and the halfwidth corner brackets ｢｣ now have `vert`/`vrt2` alternates, and halfwidth katakana have upright half-height alternates. Browsers decide the orientation of halfwidth katakana themselves and rotate them sideways by default; use `text-orientation: upright` in CSS to get the upright forms.
+
 - Some historical Cyrillic letters were dropped after review; the remaining ones (U+1C80–1C88, parts of U+A644–A6A0) are accepted but few.
 - The S2T/T2S phrase tables cover common words only; rare ambiguous characters fall back to a single default mapping.
 
