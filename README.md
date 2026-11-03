@@ -21,6 +21,8 @@ All twelve carry the same name/licence metadata as the original font (Public Dom
 
 ## Intended use
 
+This font was made for **e-ink readers** (e-paper), and that is where it is recommended: the letterpress weight and roughness stay legible and pleasant on a low-resolution, high-contrast e-ink screen, for horizontal and vertical reading alike.
+
 This font is made **for reading** (books, long-form text, vertical or horizontal). It is **not well suited to UI design**: the letterpress roughness, the narrow spacing marks and the tall vertical metrics were tuned for running text, not for buttons, menus or small interface labels.
 
 Pick the version that matches how you read: the main font for mixed text, **S2T** if you prefer to read traditional characters (and type or receive simplified text), **T2S** if you prefer simplified, and **VC / AC / NC** for the punctuation placement you prefer (see the comparison below); each exists in S2T and T2S form too.
