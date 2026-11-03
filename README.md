@@ -14,7 +14,7 @@ The font files are attached to the [latest GitHub Release](https://github.com/SE
 | `HuiwenMincho-AI-v2.1-S2T.ttf` | Same glyphs; typing simplified characters displays traditional forms (with context-aware handling of one-to-many characters, e.g. 后/後/皇后, 发/發/髮, 干/乾/幹/榦, 里/裡/裏). |
 | `HuiwenMincho-AI-v2.1-T2S.ttf` | The reverse: typing traditional characters displays simplified forms. |
 | `HuiwenMincho-AI-v2.1-CP.ttf` | Same glyphs as the main font, but full-width punctuation and symbols (、。，：；！？ brackets, quotation marks, ～ ★ ○ ...) are **centred** in their em box, in horizontal and vertical forms (like I.Ming's "CP" build). Cell-filling shapes and box drawing are left untouched so that they still join. |
-| `example/language_specimen_1.png`, `_2.png` | Specimen of every script and language covered, rendered with these fonts. |
+| `example/` | Specimen images (per language, per version, horizontal and vertical) rendered with these fonts. |
 
 All four carry the same name/licence metadata as the original font (Public Domain; credits to the original authors are kept in the name table).
 
@@ -35,6 +35,16 @@ Box drawing and a wide mix of scripts and symbols, set with the main font. Horiz
 Vertical (right to left, `writing-mode: vertical-rl`):
 
 ![Vertical specimen](example/specimen_vertical.png)
+
+## Version comparison
+
+The same text in each version. In S2T the simplified text displays as traditional forms, in T2S the traditional text displays as simplified ones (the converter also swaps 「」 for “”), and CP centres punctuation and symbols.
+
+![Version comparison](example/versions_comparison.png)
+
+Main vs CP, horizontal and vertical:
+
+![Main vs CP](example/cp_comparison.png)
 
 ## Background
 
@@ -109,7 +119,7 @@ Both were made with **[TCFontCreator](https://github.com/GuiWonder/TCFontCreator
 
 ## Language coverage
 
-Latin (English, French, German, Spanish, Portuguese, Polish, Czech, Hungarian, Turkish, Romanian, Icelandic, ...), Vietnamese, Greek (modern and polytonic), Cyrillic (Russian, Ukrainian, Serbian, Bulgarian, Kazakh, ...), Chinese (traditional and simplified), Japanese (kana and kanji), bopomofo including Taiwanese/Hakka extensions, plus the symbols above. Arabic, Hebrew, Indic scripts, Thai and Hangul are not covered (for Hangul see the recommendation below). See `example/language_specimen_*.png`.
+Latin (English, French, German, Spanish, Portuguese, Polish, Czech, Hungarian, Turkish, Romanian, Icelandic, ...), Vietnamese, Greek (modern and polytonic), Cyrillic (Russian, Ukrainian, Serbian, Bulgarian, Kazakh, ...), Chinese (traditional and simplified), Japanese (kana and kanji), bopomofo including Taiwanese/Hakka extensions, plus the symbols above. Arabic, Hebrew, Indic scripts, Thai and Hangul are not covered (for Hangul see the recommendation below). See [Specimens by language](#specimens-by-language).
 
 **Hangul:** this font does not cover Hangul. For Hangul, **ChosunCentennial** (Chosun Centennial, Bang Il Young Foundation) is highly recommended: its forms match the style of this font very well, so set it as the fallback font for Hangul. It is not bundled or redistributed here; check its licence terms before using or redistributing it.
 
@@ -187,6 +197,100 @@ The folder `Material Fonts/` (and `TCFontCreator/`) is **not uploaded** to this 
 | macOS system fonts (Iowan Old Style, Arial, Times New Roman, Tahoma, STIX, DIN Condensed, Sarasa UI, Hiragino Mincho, Songti, ...) | their respective owners | Visual reference to decide the correct shape of rare letters. No outlines used. |
 | [TCFontCreator](https://github.com/GuiWonder/TCFontCreator) (中文字体简繁处理工具) | GuiWonder; no licence is declared in its repository | Creates the S2T and T2S variants (its otfcc core, simplified↔traditional conversion with phrase matching). |
 | fontTools, HarfBuzz (`hb-shape`), otfcc, Pillow | open source | Building and verifying the fonts. |
+
+## Specimens by language
+
+**English**
+
+![English](example/lang_english.png)
+
+**Français**
+
+![Français](example/lang_french.png)
+
+**Deutsch**
+
+![Deutsch](example/lang_german.png)
+
+**Español**
+
+![Español](example/lang_spanish.png)
+
+**Português**
+
+![Português](example/lang_portuguese.png)
+
+**Polski**
+
+![Polski](example/lang_polish.png)
+
+**Čeština**
+
+![Čeština](example/lang_czech.png)
+
+**Magyar**
+
+![Magyar](example/lang_hungarian.png)
+
+**Türkçe**
+
+![Türkçe](example/lang_turkish.png)
+
+**Română**
+
+![Română](example/lang_romanian.png)
+
+**Íslenska**
+
+![Íslenska](example/lang_icelandic.png)
+
+**Tiếng Việt**
+
+![Tiếng Việt](example/lang_vietnamese.png)
+
+**Greek**
+
+![Greek](example/lang_greek.png)
+
+**Greek (polytonic)**
+
+![Greek (polytonic)](example/lang_greek_polytonic.png)
+
+**Russian**
+
+![Russian](example/lang_russian.png)
+
+**Ukrainian**
+
+![Ukrainian](example/lang_ukrainian.png)
+
+**Serbian**
+
+![Serbian](example/lang_serbian.png)
+
+**Bulgarian**
+
+![Bulgarian](example/lang_bulgarian.png)
+
+**Kazakh**
+
+![Kazakh](example/lang_kazakh.png)
+
+**Chinese (traditional)**
+
+![Chinese (traditional)](example/lang_chinese_traditional.png)
+
+**Chinese (simplified)**
+
+![Chinese (simplified)](example/lang_chinese_simplified.png)
+
+**Japanese**
+
+![Japanese](example/lang_japanese.png)
+
+**Bopomofo**
+
+![Bopomofo](example/lang_bopomofo.png)
 
 ## Known issues
 

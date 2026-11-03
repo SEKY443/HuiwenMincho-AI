@@ -14,7 +14,7 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 | `HuiwenMincho-AI-v2.1-S2T.ttf` | 字形相同；輸入簡體字就顯示正體字，並處理一簡對多繁（例如 后／後／皇后、发／發／髮、干／乾／幹／榦、里／裡／裏）。 |
 | `HuiwenMincho-AI-v2.1-T2S.ttf` | 相反：輸入正體字顯示簡體字。 |
 | `HuiwenMincho-AI-v2.1-CP.ttf` | 字形與主字型相同，但全形標點與符號（、。，：；！？、括號、引號、～ ★ ○⋯⋯）在橫排與直排字形中都**居中**於字面框（類似 I.Ming 的「CP」版本）。佔滿格子的圖形與製表符不動，以免接不上。 |
-| `example/language_specimen_1.png`、`_2.png` | 用這些字型排出的各文字、各語言樣張。 |
+| `example/` | 用這些字型排出的樣張（各語言、各版本、橫排與直排）。 |
 
 四個檔案的內部名稱與授權資訊都與原字型一致（Public Domain，原作者的署名保留在字型的 name 表中）。
 
@@ -35,6 +35,16 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 直排（由右至左，`writing-mode: vertical-rl`）：
 
 ![直排樣張](example/specimen_vertical.png)
+
+## 版本對比
+
+同一段文字在各版本的顯示。S2T 輸入簡體會顯示正體，T2S 輸入正體會顯示簡體（轉換器也會把「」換成“”），CP 則把標點與符號居中。
+
+![版本對比](example/versions_comparison.png)
+
+主字型與 CP 的橫排、直排對比：
+
+![主字型與 CP](example/cp_comparison.png)
 
 ## 背景
 
@@ -187,6 +197,100 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 | macOS 系統字型（Iowan Old Style、Arial、Times New Roman、Tahoma、STIX、DIN Condensed、Sarasa UI、Hiragino Mincho、Songti⋯⋯） | 各自的所有者 | 作為視覺參考，用來判斷罕用字母的正確形狀。沒有使用任何輪廓。 |
 | [TCFontCreator](https://github.com/GuiWonder/TCFontCreator)（中文字体简繁处理工具） | GuiWonder；其儲存庫未標示授權 | 製作 S2T 與 T2S 版本（使用它的 otfcc 核心、含詞彙匹配的簡繁轉換）。 |
 | fontTools、HarfBuzz（`hb-shape`）、otfcc、Pillow | 開源 | 建構與驗證字型。 |
+
+## 各語言樣張
+
+**English**
+
+![English](example/lang_english.png)
+
+**Français**
+
+![Français](example/lang_french.png)
+
+**Deutsch**
+
+![Deutsch](example/lang_german.png)
+
+**Español**
+
+![Español](example/lang_spanish.png)
+
+**Português**
+
+![Português](example/lang_portuguese.png)
+
+**Polski**
+
+![Polski](example/lang_polish.png)
+
+**Čeština**
+
+![Čeština](example/lang_czech.png)
+
+**Magyar**
+
+![Magyar](example/lang_hungarian.png)
+
+**Türkçe**
+
+![Türkçe](example/lang_turkish.png)
+
+**Română**
+
+![Română](example/lang_romanian.png)
+
+**Íslenska**
+
+![Íslenska](example/lang_icelandic.png)
+
+**Tiếng Việt**
+
+![Tiếng Việt](example/lang_vietnamese.png)
+
+**希臘文**
+
+![Greek](example/lang_greek.png)
+
+**希臘文（多調）**
+
+![Greek (polytonic)](example/lang_greek_polytonic.png)
+
+**俄文**
+
+![Russian](example/lang_russian.png)
+
+**烏克蘭文**
+
+![Ukrainian](example/lang_ukrainian.png)
+
+**塞爾維亞文**
+
+![Serbian](example/lang_serbian.png)
+
+**保加利亞文**
+
+![Bulgarian](example/lang_bulgarian.png)
+
+**哈薩克文**
+
+![Kazakh](example/lang_kazakh.png)
+
+**正體中文**
+
+![Chinese (traditional)](example/lang_chinese_traditional.png)
+
+**簡體中文**
+
+![Chinese (simplified)](example/lang_chinese_simplified.png)
+
+**日文**
+
+![Japanese](example/lang_japanese.png)
+
+**注音**
+
+![Bopomofo](example/lang_bopomofo.png)
 
 ## 已知問題
 
