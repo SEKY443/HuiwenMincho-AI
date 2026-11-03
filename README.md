@@ -1,8 +1,8 @@
-# HuiwenMincho-AI v2.1 — a supplement for vertical reading
+# HuiwenMincho-AI v2.1 — a multilingual letterpress-style font
 
 English | [正體中文](README.zh-Hant.md)
 
-HuiwenMincho-AI v2.1 is an extended build of the 汇文明朝体 (Huiwen Mincho) letterpress-style typeface. It adds about 2,400 code points that were missing (punctuation and symbols for vertical text, Latin and Vietnamese letters, IPA, Greek incl. polytonic, Cyrillic, enclosed and CJK symbols, radicals, bopomofo extensions, box drawing, ...) and ships with two reading-oriented variants, **S2T** (simplified → traditional) and **T2S** (traditional → simplified).
+HuiwenMincho-AI v2.1 is an extended build of the 汇文明朝体 (Huiwen Mincho) letterpress-style typeface, with **multilingual support** as its main goal: Chinese (traditional and simplified), Japanese, bopomofo, Latin (English, French, German, Spanish, Vietnamese, Polish, Czech, Turkish, ...), IPA, Greek (incl. polytonic) and Cyrillic, set in one consistent letterpress style, for horizontal and vertical reading. It adds about 2,600 code points that were missing (Latin Extended, Vietnamese, IPA, Greek, Cyrillic, punctuation and symbols for vertical text, enclosed and CJK symbols, radicals, bopomofo extensions, box drawing, currency, super/subscripts, ...) and ships with **S2T** (simplified → traditional) and **T2S** (traditional → simplified) reading variants and punctuation-placement variants (see below).
 
 ## Files
 
