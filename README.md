@@ -39,7 +39,7 @@ Vertical (right to left, `writing-mode: vertical-rl`):
 
 ## Version comparison
 
-The same text in each version. In S2T the simplified text displays as traditional forms, in T2S the traditional text displays as simplified ones (the converter also swaps 「」 for “”), and AC centres punctuation and symbols.
+The same text in each version. In S2T the simplified text displays as traditional forms, in T2S the traditional text displays as simplified ones (the converter also swaps 「」 for full-width “”, drawn here in a 1 em cell), and AC centres punctuation and symbols.
 
 ![Version comparison](example/versions_comparison.png)
 
