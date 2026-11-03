@@ -300,4 +300,4 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 
 ## 授權
 
-與原字型相同：**Public Domain**，唯由 OFL 授權的 IM Fell English Italic 衍生的部分除外（見上）。
+與原字型相同：**Public Domain**，唯由 OFL 授權的 IM Fell English Italic 衍生的部分除外（見上）。完整條文見 [LICENSE](LICENSE)（Unlicense，公有領域宣告）。

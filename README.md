@@ -300,4 +300,4 @@ The folder `Material Fonts/` (and `TCFontCreator/`) is **not uploaded** to this 
 
 ## Licence
 
-Same as the original font: **Public Domain**, with the exceptions noted above for parts derived from the OFL-licensed IM Fell English Italic.
+Same as the original font: **Public Domain**, with the exceptions noted above for parts derived from the OFL-licensed IM Fell English Italic. The full text is in [LICENSE](LICENSE) (the Unlicense, a public-domain dedication).
