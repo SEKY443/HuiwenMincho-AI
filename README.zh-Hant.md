@@ -295,6 +295,10 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 
 ![Bopomofo](example/lang_bopomofo.png)
 
+全部 75 個注音符號（標準符號加上臺灣話、客家話的擴充）：
+
+![全部注音](example/bopomofo_all.png)
+
 ## 已知問題
 
 - **直排字形：** 小假名（ぁぃっゃ … ㇰ–ㇿ）、長音符 ー、〝〞〟、全形句點 ．與半角括號 ｢｣ 現在都有 `vert`／`vrt2` 直排替換字形，半角片假名也有正立、半高的直排字形。但瀏覽器會自行決定半角片假名的方向，預設把它們轉橫；若要用正立字形，請在 CSS 加上 `text-orientation: upright`。
