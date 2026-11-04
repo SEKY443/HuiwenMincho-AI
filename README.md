@@ -295,10 +295,6 @@ The folder `Material Fonts/` (and `TCFontCreator/`) is **not uploaded** to this 
 
 ![Bopomofo](example/lang_bopomofo.png)
 
-All 75 bopomofo symbols (the standard 41 plus the Taiwanese/Hakka extensions):
-
-![All bopomofo](example/bopomofo_all.png)
-
 ## Known issues
 
 - **Vertical forms:** small kana (ぁぃっゃ … ㇰ–ㇿ), the prolonged sound mark ー, 〝〞〟, the fullwidth full stop ． and the halfwidth corner brackets ｢｣ now have `vert`/`vrt2` alternates, and halfwidth katakana have upright half-height alternates. Browsers decide the orientation of halfwidth katakana themselves and rotate them sideways by default; use `text-orientation: upright` in CSS to get the upright forms.
