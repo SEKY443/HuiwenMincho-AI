@@ -4,7 +4,7 @@
 
 ## 這個專案建立在什麼之上
 
-*（原名 HuiwenMincho-AI v2.1，現改名 HuiwenMincho-Plus：新增的字形大多不是 AI 生成，也避免和上游的 HuiwenMincho-AI v1 混淆。）*
+*（原名 HuiwenMincho-AI v2.1，現改名 HuiwenMincho-Plus：新增的字形大多不是擴散模型生成，也避免和上游的 HuiwenMincho-AI v1 混淆。）*
 
 本專案建立在兩個專案之上，兩者都源自特里王（Wang Tingrui）／WNGNXAN 的原版匯文明朝體：
 
