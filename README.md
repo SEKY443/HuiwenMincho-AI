@@ -1,8 +1,10 @@
-# HuiwenMincho-AI v2.1 — a multilingual letterpress-style font
+# HuiwenMincho-Plus v2.1 — a multilingual letterpress-style font
 
 English | [正體中文](README.zh-Hant.md)
 
 ## What this project builds on
+
+*(Formerly published as HuiwenMincho-AI v2.1; renamed to HuiwenMincho-Plus because most added glyphs are not AI-generated, and to avoid confusion with the upstream HuiwenMincho-AI v1.)*
 
 This work stands on two projects, both derived from the original 汇文明朝体 by 特里王 (Wang Tingrui) / WNGNXAN:
 
@@ -13,19 +15,19 @@ Original font: <https://zhuanlan.zhihu.com/p/344103391> (new releases by the ori
 
 ## Overview
 
-HuiwenMincho-AI v2.1 is an extended build of the 汇文明朝体 (Huiwen Mincho) letterpress-style typeface, with **multilingual support** as its main goal: Chinese (traditional and simplified), Japanese, bopomofo, Latin (English, French, German, Spanish, Vietnamese, Polish, Czech, Turkish, ...), IPA, Greek (incl. polytonic) and Cyrillic, set in one consistent letterpress style, for horizontal and vertical reading. It adds about 2,600 code points that were missing (Latin Extended, Vietnamese, IPA, Greek, Cyrillic, punctuation and symbols for vertical text, enclosed and CJK symbols, radicals, bopomofo extensions, box drawing, currency, super/subscripts, ...) and ships with **S2T** (simplified → traditional) and **T2S** (traditional → simplified) reading variants and punctuation-placement variants (see below).
+HuiwenMincho-Plus v2.1 is an extended build of the 汇文明朝体 (Huiwen Mincho) letterpress-style typeface, with **multilingual support** as its main goal: Chinese (traditional and simplified), Japanese, bopomofo, Latin (English, French, German, Spanish, Vietnamese, Polish, Czech, Turkish, ...), IPA, Greek (incl. polytonic) and Cyrillic, set in one consistent letterpress style, for horizontal and vertical reading. It adds about 2,600 code points that were missing (Latin Extended, Vietnamese, IPA, Greek, Cyrillic, punctuation and symbols for vertical text, enclosed and CJK symbols, radicals, bopomofo extensions, box drawing, currency, super/subscripts, ...) and ships with **S2T** (simplified → traditional) and **T2S** (traditional → simplified) reading variants and punctuation-placement variants (see below).
 
 ## Files
 
-The font files are attached to the [latest GitHub Release](https://github.com/SEKY443/HuiwenMincho-AI/releases/latest); they are not stored in the git history.
+The font files are attached to the [latest GitHub Release](https://github.com/SEKY443/HuiwenMincho-Plus/releases/latest); they are not stored in the git history.
 
 | File | What it is |
 |---|---|
-| `HuiwenMincho-AI-v2.1.ttf` | **Main font.** Horizontal punctuation (，。、；：！？) centred; vertical forms in the traditional top-right position. |
-| `HuiwenMincho-AI-v2.1-VC.ttf` | **V**ertical centred: vertical forms of punctuation and symbols centred in the em box; horizontal punctuation in mainland style (lower-left / left side); horizontal quotes “ ” ‘ ’ instead of 「」『』. |
-| `HuiwenMincho-AI-v2.1-AC.ttf` | **A**ll centred: every full-width punctuation mark and symbol centred, horizontal and vertical (like I.Ming's "CP" build). |
-| `HuiwenMincho-AI-v2.1-NC.ttf` | **N**one centred: mainland style for horizontal text (，。、 in the lower-left corner, ；：！？ on the left, “ ” ‘ ’ quotes), traditional top-right forms for vertical text. |
-| `…-S2T.ttf` / `…-T2S.ttf` | Every one of the four versions above also comes as **S2T** (typing simplified characters displays traditional forms, with context-aware handling of one-to-many characters, e.g. 后/後/皇后, 发/發/髮, 干/乾/幹/榦, 里/裡/裏) and **T2S** (typing traditional characters displays simplified forms): 12 files in total, e.g. `HuiwenMincho-AI-v2.1-VC-S2T.ttf`. |
+| `HuiwenMincho-Plus-v2.1.ttf` | **Main font.** Horizontal punctuation (，。、；：！？) centred; vertical forms in the traditional top-right position. |
+| `HuiwenMincho-Plus-v2.1-VC.ttf` | **V**ertical centred: vertical forms of punctuation and symbols centred in the em box; horizontal punctuation in mainland style (lower-left / left side); horizontal quotes “ ” ‘ ’ instead of 「」『』. |
+| `HuiwenMincho-Plus-v2.1-AC.ttf` | **A**ll centred: every full-width punctuation mark and symbol centred, horizontal and vertical (like I.Ming's "CP" build). |
+| `HuiwenMincho-Plus-v2.1-NC.ttf` | **N**one centred: mainland style for horizontal text (，。、 in the lower-left corner, ；：！？ on the left, “ ” ‘ ’ quotes), traditional top-right forms for vertical text. |
+| `…-S2T.ttf` / `…-T2S.ttf` | Every one of the four versions above also comes as **S2T** (typing simplified characters displays traditional forms, with context-aware handling of one-to-many characters, e.g. 后/後/皇后, 发/發/髮, 干/乾/幹/榦, 里/裡/裏) and **T2S** (typing traditional characters displays simplified forms): 12 files in total, e.g. `HuiwenMincho-Plus-v2.1-VC-S2T.ttf`. |
 | `example/` | Specimen images (per language, per version, horizontal and vertical) rendered with these fonts. |
 
 All twelve carry the same name/licence metadata as the original font (Public Domain; credits to the original authors are kept in the name table).
@@ -38,7 +40,7 @@ This font is made **for reading** (books, long-form text, vertical or horizontal
 
 Pick the version that matches how you read: the main font for mixed text, **S2T** if you prefer to read traditional characters (and type or receive simplified text), **T2S** if you prefer simplified, and **VC / AC / NC** for the punctuation placement you prefer (see the comparison below); each exists in S2T and T2S form too.
 
-Repository: <https://github.com/SEKY443/HuiwenMincho-AI>
+Repository: <https://github.com/SEKY443/HuiwenMincho-Plus>
 
 ## Specimen
 
@@ -130,7 +132,7 @@ Latin (English, French, German, Spanish, Portuguese, Polish, Czech, Hungarian, T
 
 ### Coverage by Unicode block
 
-Code points present in `HuiwenMincho-AI-v2.1.ttf` out of the assigned characters in each block (control characters excluded; counted against Unicode 14.0, so blocks that grew in later versions may show slightly lower real coverage).
+Code points present in `HuiwenMincho-Plus-v2.1.ttf` out of the assigned characters in each block (control characters excluded; counted against Unicode 14.0, so blocks that grew in later versions may show slightly lower real coverage).
 
 | Block | Range | Present / assigned | Coverage |
 |---|---|---:|---:|
