@@ -2,6 +2,17 @@
 
 English | [正體中文](README.zh-Hant.md)
 
+## What this project builds on
+
+This work stands on two projects, both derived from the original 汇文明朝体 by 特里王 (Wang Tingrui) / WNGNXAN:
+
+1. **[bosswnx/huiwenmincho-improved](https://github.com/bosswnx/huiwenmincho-improved)** — corrects the width of full-width Chinese punctuation (《》「」『』【】！？：；（） and the vertical forms U+FE17–FE44) so it occupies one full em and is centred.
+2. **HuiwenMincho-AI v1 by 木相 (Muxiang, Zhihu: D-xiang-11)** — the original font plus 16,026 missing CJK glyphs generated with a diffusion model (FontDiffuser) and vectorised. Its Han glyphs are used unchanged here. Article: <https://zhuanlan.zhihu.com/p/2073823068577870999>.
+
+Original font: <https://zhuanlan.zhihu.com/p/344103391> (new releases by the original author: <https://zhuanlan.zhihu.com/p/12669052378>).
+
+## Overview
+
 HuiwenMincho-AI v2.1 is an extended build of the 汇文明朝体 (Huiwen Mincho) letterpress-style typeface, with **multilingual support** as its main goal: Chinese (traditional and simplified), Japanese, bopomofo, Latin (English, French, German, Spanish, Vietnamese, Polish, Czech, Turkish, ...), IPA, Greek (incl. polytonic) and Cyrillic, set in one consistent letterpress style, for horizontal and vertical reading. It adds about 2,600 code points that were missing (Latin Extended, Vietnamese, IPA, Greek, Cyrillic, punctuation and symbols for vertical text, enclosed and CJK symbols, radicals, bopomofo extensions, box drawing, currency, super/subscripts, ...) and ships with **S2T** (simplified → traditional) and **T2S** (traditional → simplified) reading variants and punctuation-placement variants (see below).
 
 ## Files
@@ -59,15 +70,6 @@ Rules I kept throughout:
 - **Existing hanzi and letters were not redrawn.** The only existing glyphs that differ from the original `HuiwenMincho-AI.ttf` are listed under [Changes to existing glyphs](#changes-to-existing-glyphs).
 - The look follows the letterpress character of the font: rough edges, uneven weight, repeated parts that are not identical copies, strokes that stay inside the em box.
 - Everything was reviewed by eye, glyph by glyph, in several rounds on a review page, and anything rejected was rebuilt.
-
-## What this project builds on
-
-This work stands on two projects, both derived from the original 汇文明朝体 by 特里王 (Wang Tingrui) / WNGNXAN:
-
-1. **[bosswnx/huiwenmincho-improved](https://github.com/bosswnx/huiwenmincho-improved)** — corrects the width of full-width Chinese punctuation (《》「」『』【】！？：；（） and the vertical forms U+FE17–FE44) so it occupies one full em and is centred.
-2. **HuiwenMincho-AI v1 by 木相 (Muxiang, Zhihu: D-xiang-11)** — the original font plus 16,026 missing CJK glyphs generated with a diffusion model (FontDiffuser) and vectorised. Its Han glyphs are used unchanged here. Article: <https://zhuanlan.zhihu.com/p/2073823068577870999>.
-
-Original font: <https://zhuanlan.zhihu.com/p/344103391> (new releases by the original author: <https://zhuanlan.zhihu.com/p/12669052378>).
 
 ## What was added
 

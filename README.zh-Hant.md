@@ -2,6 +2,17 @@
 
 [English](README.md) | 正體中文
 
+## 這個專案建立在什麼之上
+
+本專案建立在兩個專案之上，兩者都源自特里王（Wang Tingrui）／WNGNXAN 的原版匯文明朝體：
+
+1. **[bosswnx/huiwenmincho-improved](https://github.com/bosswnx/huiwenmincho-improved)**：修正全形中文標點（《》「」『』【】！？：；（）以及直排形式 U+FE17–FE44）的寬度，讓它佔滿一個字寬並置中。
+2. **木相（Muxiang，知乎：D-xiang-11）的 HuiwenMincho-AI v1**：原字型加上用擴散模型（FontDiffuser）生成並向量化的 16,026 個缺字。本專案原樣沿用它的漢字。文章：<https://zhuanlan.zhihu.com/p/2073823068577870999>。
+
+原字型：<https://zhuanlan.zhihu.com/p/344103391>（原作者的新版：<https://zhuanlan.zhihu.com/p/12669052378>）。
+
+## 概述
+
 HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的擴充版，以**多語言支援**為主要目標：中文（正體與簡體）、日文、注音、拉丁字母（英、法、德、西、越南文、波蘭文、捷克文、土耳其文⋯⋯）、IPA、希臘文（含多調）與西里爾文，用同一套鉛印風格呈現，橫排直排皆可閱讀。它補上了約 2,600 個原本缺少的碼位（拉丁擴充、越南文、IPA、希臘文、西里爾文、直排用的標點與符號、帶圈與 CJK 符號、部首、注音擴充、製表符、貨幣、上下標⋯⋯），並附帶 **S2T**（簡體輸入、顯示正體）與 **T2S**（正體輸入、顯示簡體）兩種閱讀版本，以及不同的標點位置版本（見下）。
 
 ## 檔案
@@ -59,15 +70,6 @@ HuiwenMincho-AI v2.1 是匯文明朝體（汇文明朝体，鉛字風格）的�
 - **沒有重畫既有的漢字與字母。** 與原版 `HuiwenMincho-AI.ttf` 不同的既有字形，全部列在〈既有字形的更動〉。
 - 外觀保留鉛字的氣質：毛邊、粗細不均、重複的部件不是同一個複本、筆畫不超出字框。
 - 每一個字都在審查頁上逐字用眼睛審過、分多輪，被退回的都重做。
-
-## 這個專案建立在什麼之上
-
-本專案建立在兩個專案之上，兩者都源自特里王（Wang Tingrui）／WNGNXAN 的原版匯文明朝體：
-
-1. **[bosswnx/huiwenmincho-improved](https://github.com/bosswnx/huiwenmincho-improved)**：修正全形中文標點（《》「」『』【】！？：；（）以及直排形式 U+FE17–FE44）的寬度，讓它佔滿一個字寬並置中。
-2. **木相（Muxiang，知乎：D-xiang-11）的 HuiwenMincho-AI v1**：原字型加上用擴散模型（FontDiffuser）生成並向量化的 16,026 個缺字。本專案原樣沿用它的漢字。文章：<https://zhuanlan.zhihu.com/p/2073823068577870999>。
-
-原字型：<https://zhuanlan.zhihu.com/p/344103391>（原作者的新版：<https://zhuanlan.zhihu.com/p/12669052378>）。
 
 ## 新增了什麼
 
